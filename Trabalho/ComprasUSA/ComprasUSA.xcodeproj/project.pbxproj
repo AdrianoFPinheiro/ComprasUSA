@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4C2AFE6D21C191A70092FCC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE6C21C191A70092FCC4 /* AppDelegate.swift */; };
 		4C2AFE7721C191A90092FCC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFE7621C191A90092FCC4 /* Assets.xcassets */; };
-		4C2AFE8221C1926A0092FCC4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFE8121C1926A0092FCC4 /* Settings.bundle */; };
 		4C2AFE8A21C195B60092FCC4 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE8921C195B60092FCC4 /* WalletViewController.swift */; };
 		4C2AFE8E21C1963D0092FCC4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE8D21C1963D0092FCC4 /* SettingsViewController.swift */; };
 		4C2AFE9221C196DE0092FCC4 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE9121C196DE0092FCC4 /* ProductTableViewCell.swift */; };
@@ -17,8 +16,10 @@
 		4C2AFE9621C1975D0092FCC4 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE9521C1975D0092FCC4 /* ProductViewController.swift */; };
 		4C2AFE9B21C1984A0092FCC4 /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE9A21C1984A0092FCC4 /* UIViewController+CoreData.swift */; };
 		4C2AFE9F21C19CEE0092FCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFE7821C191A90092FCC4 /* LaunchScreen.storyboard */; };
-		4C2AFEA421C1A0500092FCC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFEA221C1A0500092FCC4 /* Main.storyboard */; };
 		4C2AFEAA21C1B22D0092FCC4 /* ComprasLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFEA821C1B22D0092FCC4 /* ComprasLib.xcdatamodeld */; };
+		4C3848E021C1B48700B229E7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C3848DF21C1B48700B229E7 /* Settings.bundle */; };
+		4C43657121C1C0B500667923 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFE7B21C191A90092FCC4 /* Info.plist */; };
+		4C43657721C1C2B400667923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C43657521C1C2B400667923 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,15 +28,15 @@
 		4C2AFE7621C191A90092FCC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C2AFE7921C191A90092FCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C2AFE7B21C191A90092FCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C2AFE8121C1926A0092FCC4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ComprasUSA/Settings.bundle; sourceTree = "<group>"; };
 		4C2AFE8921C195B60092FCC4 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		4C2AFE8D21C1963D0092FCC4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4C2AFE9121C196DE0092FCC4 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		4C2AFE9321C197010092FCC4 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		4C2AFE9521C1975D0092FCC4 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		4C2AFE9A21C1984A0092FCC4 /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
-		4C2AFEA321C1A0500092FCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../EUA/DaniRenan/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C2AFEA921C1B22D0092FCC4 /* ComprasLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComprasLib.xcdatamodel; sourceTree = "<group>"; };
+		4C3848DF21C1B48700B229E7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		4C43657621C1C2B400667923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +53,8 @@
 		4C2AFE6021C191A70092FCC4 = {
 			isa = PBXGroup;
 			children = (
+				4C3848DF21C1B48700B229E7 /* Settings.bundle */,
 				4C2AFEA821C1B22D0092FCC4 /* ComprasLib.xcdatamodeld */,
-				4C2AFE8121C1926A0092FCC4 /* Settings.bundle */,
 				4C2AFE6B21C191A70092FCC4 /* ComprasUSA */,
 				4C2AFE6A21C191A70092FCC4 /* Products */,
 			);
@@ -70,7 +71,6 @@
 		4C2AFE6B21C191A70092FCC4 /* ComprasUSA */ = {
 			isa = PBXGroup;
 			children = (
-				4C2AFEA221C1A0500092FCC4 /* Main.storyboard */,
 				4C2AFE6C21C191A70092FCC4 /* AppDelegate.swift */,
 				4C2AFE7621C191A90092FCC4 /* Assets.xcassets */,
 				4C2AFE9721C197AC0092FCC4 /* Extensions */,
@@ -79,6 +79,7 @@
 				4C2AFE9021C1969C0092FCC4 /* Products */,
 				4C2AFE9821C198020092FCC4 /* Settings */,
 				4C2AFE8F21C1967C0092FCC4 /* Wallet */,
+				4C43657521C1C2B400667923 /* Main.storyboard */,
 			);
 			path = ComprasUSA;
 			sourceTree = "<group>";
@@ -175,10 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2AFE8221C1926A0092FCC4 /* Settings.bundle in Resources */,
+				4C3848E021C1B48700B229E7 /* Settings.bundle in Resources */,
+				4C43657721C1C2B400667923 /* Main.storyboard in Resources */,
 				4C2AFE9F21C19CEE0092FCC4 /* LaunchScreen.storyboard in Resources */,
 				4C2AFE7721C191A90092FCC4 /* Assets.xcassets in Resources */,
-				4C2AFEA421C1A0500092FCC4 /* Main.storyboard in Resources */,
+				4C43657121C1C0B500667923 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,10 +213,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		4C2AFEA221C1A0500092FCC4 /* Main.storyboard */ = {
+		4C43657521C1C2B400667923 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4C2AFEA321C1A0500092FCC4 /* Base */,
+				4C43657621C1C2B400667923 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
