@@ -18,7 +18,7 @@
 		4C2AFE9B21C1984A0092FCC4 /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFE9A21C1984A0092FCC4 /* UIViewController+CoreData.swift */; };
 		4C2AFE9F21C19CEE0092FCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFE7821C191A90092FCC4 /* LaunchScreen.storyboard */; };
 		4C2AFEA421C1A0500092FCC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2AFEA221C1A0500092FCC4 /* Main.storyboard */; };
-		4C2AFEA721C1A3040092FCC4 /* ComprasLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFEA521C1A3040092FCC4 /* ComprasLib.xcdatamodeld */; };
+		4C2AFEAA21C1B22D0092FCC4 /* ComprasLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C2AFEA821C1B22D0092FCC4 /* ComprasLib.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		4C2AFE9521C1975D0092FCC4 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		4C2AFE9A21C1984A0092FCC4 /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
 		4C2AFEA321C1A0500092FCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../EUA/DaniRenan/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C2AFEA621C1A3040092FCC4 /* ComprasLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComprasLib.xcdatamodel; sourceTree = "<group>"; };
+		4C2AFEA921C1B22D0092FCC4 /* ComprasLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComprasLib.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 		4C2AFE6021C191A70092FCC4 = {
 			isa = PBXGroup;
 			children = (
-				4C2AFEA521C1A3040092FCC4 /* ComprasLib.xcdatamodeld */,
+				4C2AFEA821C1B22D0092FCC4 /* ComprasLib.xcdatamodeld */,
 				4C2AFE8121C1926A0092FCC4 /* Settings.bundle */,
 				4C2AFE6B21C191A70092FCC4 /* ComprasUSA */,
 				4C2AFE6A21C191A70092FCC4 /* Products */,
@@ -192,7 +192,7 @@
 				4C2AFE8A21C195B60092FCC4 /* WalletViewController.swift in Sources */,
 				4C2AFE9221C196DE0092FCC4 /* ProductTableViewCell.swift in Sources */,
 				4C2AFE9B21C1984A0092FCC4 /* UIViewController+CoreData.swift in Sources */,
-				4C2AFEA721C1A3040092FCC4 /* ComprasLib.xcdatamodeld in Sources */,
+				4C2AFEAA21C1B22D0092FCC4 /* ComprasLib.xcdatamodeld in Sources */,
 				4C2AFE6D21C191A70092FCC4 /* AppDelegate.swift in Sources */,
 				4C2AFE9421C197010092FCC4 /* ProductsTableViewController.swift in Sources */,
 				4C2AFE9621C1975D0092FCC4 /* ProductViewController.swift in Sources */,
@@ -396,14 +396,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4C2AFEA521C1A3040092FCC4 /* ComprasLib.xcdatamodeld */ = {
+		4C2AFEA821C1B22D0092FCC4 /* ComprasLib.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4C2AFEA621C1A3040092FCC4 /* ComprasLib.xcdatamodel */,
+				4C2AFEA921C1B22D0092FCC4 /* ComprasLib.xcdatamodel */,
 			);
-			currentVersion = 4C2AFEA621C1A3040092FCC4 /* ComprasLib.xcdatamodel */;
+			currentVersion = 4C2AFEA921C1B22D0092FCC4 /* ComprasLib.xcdatamodel */;
 			name = ComprasLib.xcdatamodeld;
-			path = ../../EUA/ComprasLib.xcdatamodeld;
+			path = ../../../../Adriano_iOS/EUA/ComprasLib.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
